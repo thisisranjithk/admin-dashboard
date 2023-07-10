@@ -1,0 +1,39 @@
+#accounts{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accounts-form-container{
+    height: 35rem;
+    width: 45rem;
+    background-color:#ffffff;
+    border-radius: 2rem;
+    padding: 3rem 0rem 3rem 5rem;
+}
+.accounts-form-container h1{
+    font-size: 2.2rem;
+    color: darkolivegreen;
+}
+
+.FL-name{
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+.accounts-bio{
+    margin-top: 1rem;
+    width: 62%;
+}
+.accounts-button{
+    margin-top: 2rem ;
+    width: 62%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.accounts-email {
+    width: 62%;
+}

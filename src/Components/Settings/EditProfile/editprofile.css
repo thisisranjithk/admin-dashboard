@@ -1,0 +1,77 @@
+#editprofile{
+    width: 67vw;
+    height: 80vh;
+}
+.astricred{
+    color: red;
+}
+.basic-input{
+    outline: none;
+    border: 1px solid rgb(185, 185, 185);
+    padding: 0.5rem 2rem;
+    border-radius: 7px;
+}
+.ep
+{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 1.2rem;
+padding-left: 3rem;
+}
+.container-1{
+    width: 60%;
+}
+.container-1 button{
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0rem 1rem;
+    border-radius: 0.8rem;
+}
+.profile-img{
+    height: 10rem;
+    width: 10rem;
+    background-color: cadetblue;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+.change-avatar{
+    background-color: rgb(30, 143, 255);
+    color: #ffffff;
+}
+.change-avatar:hover{
+    background-color: rgb(8, 128, 248);
+}
+.remove{
+    background-color: beige;
+}
+.remove:hover{
+    background-color: rgb(247, 247, 196);
+}
+
+.container-2{
+    width: 70%;
+    justify-content:flex-start;
+}
+.ep-name{
+    margin-right: 8rem;
+}
+.ep-label{
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.5rem;
+}
+.save-changes{
+    padding: 1.5rem;
+    padding-left: 3rem;
+    background-color: rgb(30, 143, 255);
+    color: #ffffff;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0rem 1rem;
+    border-radius: 0.8rem;
+}
+.ep-address{
+    width: 76vh;
+}
