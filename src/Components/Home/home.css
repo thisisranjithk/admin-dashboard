@@ -1,207 +1,202 @@
-#dashboard-main{
-    min-width: 100vh;
-    min-height: 100vh;
-    display: flex;
+#dashboard-main {
+  min-width: 100vh;
+  min-height: 100vh;
+  display: flex;
 }
 .db-content {
-    width: 124rem;
-    height: 100vh;
-    box-shadow: 0px 2px 2px rgba(163, 171, 185, 0.26);
+  width: 124rem;
+  height: 100vh;
+  box-shadow: 0px 2px 2px rgba(163, 171, 185, 0.26);
 }
 
-.db-content-container{
-    width: 100%;
-    height: 89vh;
-    padding: 1.5rem;
-    display: flex;
-    flex-direction: column;
+.db-content-container {
+  width: 99%;
+  margin:auto;
+  height: 85vh;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+
 }
 
-.db-content-row-1{
-    height: 22.5rem;
-    margin-bottom: 2.4rem;
-    display: flex;
+.db-content-row-1 {
+  height: 22.5rem;
+  margin-bottom: 2.4rem;
+  display: flex;
 }
-.content-welcome{
-    display: flex;
-    background-color: #2BEBC8;
-    justify-content: space-evenly;
-    padding: 2rem;
+.content-welcome {
+  display: flex;
+  background-color: #2bebc8;
+  justify-content: space-evenly;
+  padding: 2rem;
 }
-.content-bar-chart{
-    padding: 2.4rem;
-    background-color: #ffffff !important;
-}
-
-.db-content-row-2{
-    height: 14.6rem;
-    margin-bottom: 2.4rem;
-    display: flex;
-    justify-content: space-between;
+.content-bar-chart {
+  padding: 2.4rem;
+  background-color: #ffffff !important;
 }
 
-.bar-chart-big{
-    display: flex;
-    flex-direction: row;
-    background-color: #ffffff;
-}
-.graph-width{
-    width: 34.8rem;
-    height: 100%;
-    border-radius: 5px;
-    padding: 1rem;
-    display: flex;
-    background-color: #ffffff;
-}
-.line-graph-1{
-    margin-right: 2.4rem;
-}
-.line-graph-2{
-    margin-right: 2.4rem;
-}
-.db-content-row-3{
-    height: 35.8rem;
-    display: flex;
-}
-.content-large-data-box{
-    width: 72rem;
-    height: 100%;
-    margin-right: 2.4rem;
-    /* background-color: dodgerblue; */
-    border-radius: 5px;
-}
-.content-medium-data-box{
-    width: 40rem;
-    height: 99%;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    background-color: #ffffff;
+.db-content-row-2 {
+  height: 14.6rem;
+  margin-bottom: 2.4rem;
+  display: flex;
+  gap: 2.5rem;
 }
 
+.bar-chart-big {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+}
+.graph-width {
+  width: 34.8rem;
+  height: 100%;
+  border-radius: 5px;
+  padding: 1rem;
+  display: flex;
+  background-color: #ffffff;
+}
+.line-graph-1 {
+  margin-right: 2.4rem;
+}
+.line-graph-2 {
+  margin-right: 2.4rem;
+}
+.db-content-row-3 {
+  height: 35.8rem;
+  display: flex;
+}
+.content-large-data-box {
+  width: 72rem;
+  height: 100%;
+  margin-right: 2.4rem;
+  /* background-color: dodgerblue; */
+  border-radius: 5px;
+}
+.content-medium-data-box {
+  width: 40rem;
+  height: 99%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
 
 /* SidenavBar CSS style starts...  */
-.db-sidenavbar{
-    width: 20rem;
-    height: 100vh;
-    background-color: #ffffff;
-    box-shadow: 0px 2px 2px rgba(163, 171, 185, 0.26);
+.db-sidenavbar {
+  width: 20rem;
+  height: 100vh;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 2px rgba(163, 171, 185, 0.26);
 }
 
-
-.db-logo{
-    width: 100%;
-    /* height: 7.2rem; */
-    min-height: 11vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #ECECEC;
-    font-size: 3rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.db-logo {
+  width: 100%;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ececec;
+  font-size: 3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.db-list{
-    width: 100%;
-    height: 35.2rem;
-    display: flex;
-    flex-direction: column;
-    font-size: 1.6rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.db-list {
+  width: 100%;
+  height: 35.2rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.db-options{
-    height: 60%;
-    display: flex;
-    padding-left: 1.5rem;
-    justify-content: space-evenly;
-    flex-direction: column;
+.db-options {
+  height: 60%;
+  display: flex;
+  padding-left: 1.5rem;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
-.db-support{
-    height: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;   
-}  
-.support-title{
-    color: grey;
-    font-size: 1.7rem;
-    padding-left: 1.5rem;
-} 
-.support{
-    padding-left: 3rem;
+.db-support {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.support-title {
+  color: grey;
+  font-size: 1.7rem;
+  padding-left: 1.5rem;
+}
+.support {
+  padding-left: 3rem;
 }
 /* SidenavBar CSS style Ends...  */
 
-
 /* Header Section style starts...  */
 
-.db-navbar{
-    width: 100%;
-    height: 10vh;
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 3.6rem 4.8rem;
+.db-navbar {
+  width: 100%;
+  height: 10vh;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3.6rem 4.8rem;
 }
 
-.nav-searchBar{
-    width: 26.1rem;
-    height: 3.6rem;
-    border-radius: 5.4rem;
-    margin-left: 4.8rem;
-    background-color: #ECECEC;
-    outline: none;
-    border: none;
-    padding: 0px 18px;
+.nav-searchBar {
+  width: 26.1rem;
+  height: 3.6rem;
+  border-radius: 5.4rem;
+  background-color: #ececec;
+  outline: none;
+  border: none;
+  padding: 0px 18px;
 }
 
-.navbar-others{
-    display: flex;
-    align-items: center;
-    width: 18rem;
-    justify-content: space-between;
-    font-family: 'Mulish';
-    font-style: normal;
-    font-size: 2rem;
-    letter-spacing: 0.1rem;
+.navbar-others {
+  display: flex;
+  align-items: center;
+  width: 18rem;
+  justify-content: space-between;
+  font-family: "Mulish";
+  font-style: normal;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
 }
 
-.nav-line{
-    width: 1px;
-    height: 40px;
-    background: #ECECEC;
+.nav-line {
+  width: 1px;
+  height: 40px;
+  background: #ececec;
 }
 
 /* Header Section style Ends...  */
 
 /* Welcome section stylig */
-.welcome-title h4{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 2rem;
-    font-weight: 700;
-    margin-top: 1rem;
+.welcome-title h4 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 1rem;
 }
-.welcome-title p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
-    line-height: 2.5rem;
-    text-align: justify;
-    margin-top: 2rem;
-    color: #4A4A4A;
+.welcome-title p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  text-align: justify;
+  margin-top: 2rem;
+  color: #4a4a4a;
 }
 
-.welcome-img{
-    object-fit: cover;
+.welcome-img {
+  object-fit: cover;
 }
 
 /* Line chart styling */
-.line-chart-data{
-    padding: 1rem 0rem 0rem 1rem ;
+.line-chart-data {
+  padding: 1rem 0rem 0rem 1rem;
 }
 
-.bar-chart--big-data{
-    line-height: 2.3rem;
-    padding: 2rem 0rem 0rem 1.5rem;
+.bar-chart--big-data {
+  line-height: 2.3rem;
+  padding: 2rem 0rem 0rem 1.5rem;
 }
-
-

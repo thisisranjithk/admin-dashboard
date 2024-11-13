@@ -7,7 +7,7 @@ import Checkbox from "@mui/material/Checkbox";
 import Button from "@mui/material/Button";
 import { useNavigate } from "react-router-dom";
 import axios from 'axios'
-import {isExpired , decodeToken} from 'react-jwt'
+import { decodeToken} from 'react-jwt'
 
 export default function Login() {
     var [loginData, setLoginData] = useState({});
