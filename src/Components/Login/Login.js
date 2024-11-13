@@ -1,33 +1,31 @@
-import React, { useState } from 'react';
-import './login.css'
-import keyIllustration from '../../assests/login/keyIllustration.svg';
+import React, { useState } from "react";
+import "./login.css";
+import keyIllustration from "../../assests/login/keyIllustration.svg";
 import TextField from "@mui/material/TextField";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Checkbox from "@mui/material/Checkbox";
 import Button from "@mui/material/Button";
 import { useNavigate } from "react-router-dom";
-import axios from 'axios'
-import { decodeToken} from 'react-jwt'
+import axios from "axios";
+import { decodeToken } from "react-jwt";
 
 export default function Login() {
-    var [loginData, setLoginData] = useState({});
-    const handleChange = (e)=>{
-        setLoginData((prevState)=>({
-            ...prevState,
-            [e.target.name]:e.target.value,
-        }));
-    }
-    const navigate = useNavigate();
-    const login = async ()=>{
-        const response = await axios.post(
-          "http://localhost:5000/login",
-          loginData
-        );
-        let decodedData = decodeToken(response.data);
-        localStorage.setItem("token",response.data)
-        // console.log(decodedData);
-        navigate("/");
-    }
+  var [loginData, setLoginData] = useState({});
+  const handleChange = (e) => {
+    setLoginData((prevState) => ({
+      ...prevState,
+      [e.target.name]: e.target.value,
+    }));
+  };
+  const navigate = useNavigate();
+  const login = async () => {
+    const response = await axios.post("http://localhost:5000/login", loginData);
+    let decodedData = decodeToken(response.data);
+    localStorage.setItem("token", response.data);
+    console.log(decodedData);
+    navigate("/");
+  };
+
   return (
     <section id="login">
       <div className="login-container">
@@ -62,7 +60,8 @@ export default function Login() {
             variant="contained"
             size="large"
             sx={{ width: "242px" }}
-            onClick={login}>
+            onClick={login}
+          >
             Log in
           </Button>
           <div className="login-anchor">
